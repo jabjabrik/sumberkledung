@@ -7,3 +7,27 @@
         font-family: "Poppins", sans-serif;
     }
 }
+
+.nav-link-active {
+    @apply bg-blue-700 text-white md:bg-transparent md:text-blue-700 block rounded px-3 py-2 md:p-0 ;
+}
+
+.nav-link {
+    @apply text-gray-900 hover:bg-gray-100 md:border-0 md:hover:bg-transparent md:hover:text-blue-700 block rounded px-3 py-2 md:p-0
+}
+
+.nav-link-dropdown {
+    @apply flex w-full items-center justify-between rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700
+}
+
+.nav-link-active-dropdown {
+    @apply flex w-full items-center justify-between rounded px-3 py-2 md:text-blue-700 bg-blue-700 text-white md:bg-transparent md:w-auto md:border-0 md:p-0 md:hover:bg-transparent 
+}
+
+.nav-link-dropdown-item {
+    @apply block px-4 py-2 hover:bg-gray-100 text-gray-900
+}
+
+.nav-link-active-dropdown-item {
+    @apply block px-4 py-2 hover:bg-gray-100 text-blue-700
+}
